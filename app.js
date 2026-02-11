@@ -23,7 +23,7 @@ gifs.forEach(gifSrc => {
 // changes for when NO button is clicked
 no.addEventListener("click", () => {
   if (count == 2) {
-    gif.src = "/resources/rusure.gif";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
+    gif.src = "resources/rusure.gif";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
     text.innerHTML = "小臭臭你不是认真的吧?🤨";
     yes.style.height = "65%";
     yes.style.width = "60%";
@@ -66,5 +66,6 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
